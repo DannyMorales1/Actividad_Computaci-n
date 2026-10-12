@@ -52,7 +52,7 @@ demo-api/
 Tras compilar aparece además `target/` con el JAR (`target/demo-api-0.0.1-SNAPSHOT.jar`).
 
 ---
-## 3 Código fuente
+## 3. Código fuente
 ### 3.1 Código del controlador (`ServerController.java`)
 
 ```java
@@ -108,7 +108,7 @@ java -jar target/demo-api-0.0.1-SNAPSHOT.jar
 - Parar con `Ctrl+C`.
 
 ---
-## 4 Dockerfile
+## 4. Dockerfile
 ```yaml
 FROM eclipse-temurin:21-jre-alpine
 
@@ -526,16 +526,28 @@ done
 | `case "$opcion" in` | Evalúa el valor introducido y selecciona la rama que corresponde. |
 
 ## 6. **Evidencias**
+### 6.1 Construcción imagen Docker
 <img width="1691" height="553" alt="image" src="https://github.com/user-attachments/assets/34f9f0bd-5381-445b-94e3-81ecf11f7aec" />
+### 6.2 Docker Run
 <img width="1584" height="117" alt="image" src="https://github.com/user-attachments/assets/ce40943b-d4d9-4cb0-a49a-8358034ebacc" />
+### 6.3 Verificacion Logs del contenedor
 <img width="1700" height="459" alt="image" src="https://github.com/user-attachments/assets/449e6c35-ac45-47de-b844-bff17e65bef9" />
+### 6.4 Validación Response del Endpoint
 <img width="1383" height="37" alt="image" src="https://github.com/user-attachments/assets/c5981fe0-b569-480f-ad8a-e20d1f20a474" />
-### Gestor SH
+### 6.5 Gestor SH
+#### 6.5.1 Menu principal
 <img width="472" height="242" alt="image" src="https://github.com/user-attachments/assets/67e52e9e-7059-43b4-8e22-0ac1b6368848" />
+#### 6.5.2 Verificar Prerrequisitos
 <img width="459" height="255" alt="image" src="https://github.com/user-attachments/assets/d0da1fe0-0fe3-4ced-9e40-d72823d3a706" />
+#### 6.5.3 Compilar App
 <img width="1599" height="1209" alt="image" src="https://github.com/user-attachments/assets/461976fb-bf06-4341-9afa-a292458c6a13" />
+#### 6.5.4 Construir Imagen de Docker
 <img width="1710" height="631" alt="image" src="https://github.com/user-attachments/assets/403e613f-a5b3-4993-b664-5d151e90ede7" />
+#### 6.5.5 Construir Imagen de Docker
 <img width="1700" height="493" alt="image" src="https://github.com/user-attachments/assets/a2294ec0-2ed4-48fd-b8b2-9dcedb539c2f" />
+#### 6.5.6 Ejecutar contenedor de Docker
 <img width="1719" height="436" alt="image" src="https://github.com/user-attachments/assets/10e21f9b-1566-4d1d-ad91-52bd95f91f77" />
+#### 6.5.7 Estado 
 <img width="858" height="419" alt="image" src="https://github.com/user-attachments/assets/3b827b0e-cd04-4f1c-af03-9dcd730bedc3" />
+#### 6.5.5 Prueba de Endpoint
 <img width="1706" height="826" alt="image" src="https://github.com/user-attachments/assets/97677bb5-fa36-48e0-8f30-8e70a0dc206f" />

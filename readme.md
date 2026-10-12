@@ -9,7 +9,7 @@ Este proyecto contiene una aplicación web mínima con **Spring Boot**, un scrip
 
 1. [Qué hace el proyecto](#1-qué-hace-el-proyecto)
 2. [Estructura del repositorio](#2-estructura-del-repositorio)
-3. [Código Fuente](#3-estructura-del-repositorio)
+3. [Código Fuente](#3-código-fuente)
 4. [Dockerfile](#4-dockerfile)
 5. [Script gestor.sh](#5-script-gestor.sh)
 6. [Evidencias](#6-evidencias)

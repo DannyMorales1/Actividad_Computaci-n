@@ -118,11 +118,11 @@ CMD ["java", "-jar", "app.jar"]
 ```
 ---
 
-| Instrucción | Qué hace | Por qué |
+| Instrucción | Qué hace | 
 |---|---|---|
 | `FROM eclipse-temurin:21-jre-alpine` | Imagen base con Java 21 sobre Alpine Linux.
-| `WORKDIR /opt/app` | Fija (y crea si no existe) el directorio de trabajo. | Las instrucciones siguientes se ejecutan desde ahí. |
-| `COPY target/...jar app.jar` | Copia el JAR del host al contenedor, renombrado. | Nombre corto y estable (`app.jar`).
+| `WORKDIR /opt/app` | Fija (y crea si no existe) el directorio de trabajo.
+| `COPY target/...jar app.jar` | Copia el JAR del host al contenedor, renombrado.
 | `EXPOSE 8090` | Documenta el puerto de la app.
 | `CMD ["java","-jar","app.jar"]` | Comando de arranque del contenedor.
 

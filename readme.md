@@ -525,29 +525,130 @@ done
 | `read -r -p` | Lee la opción mostrando un mensaje. |
 | `case "$opcion" in` | Evalúa el valor introducido y selecciona la rama que corresponde. |
 
-## 6. **Evidencias**
-### 6.1 Construcción imagen Docker
-<img width="1691" height="553" alt="image" src="https://github.com/user-attachments/assets/34f9f0bd-5381-445b-94e3-81ecf11f7aec" />
-### 6.2 Docker Run
-<img width="1584" height="117" alt="image" src="https://github.com/user-attachments/assets/ce40943b-d4d9-4cb0-a49a-8358034ebacc" />
-### 6.3 Verificacion Logs del contenedor
-<img width="1700" height="459" alt="image" src="https://github.com/user-attachments/assets/449e6c35-ac45-47de-b844-bff17e65bef9" />
-### 6.4 Validación Response del Endpoint
-<img width="1383" height="37" alt="image" src="https://github.com/user-attachments/assets/c5981fe0-b569-480f-ad8a-e20d1f20a474" />
-### 6.5 Gestor SH
-#### 6.5.1 Menu principal
-<img width="472" height="242" alt="image" src="https://github.com/user-attachments/assets/67e52e9e-7059-43b4-8e22-0ac1b6368848" />
-#### 6.5.2 Verificar Prerrequisitos
-<img width="459" height="255" alt="image" src="https://github.com/user-attachments/assets/d0da1fe0-0fe3-4ced-9e40-d72823d3a706" />
-#### 6.5.3 Compilar App
-<img width="1599" height="1209" alt="image" src="https://github.com/user-attachments/assets/461976fb-bf06-4341-9afa-a292458c6a13" />
-#### 6.5.4 Construir Imagen de Docker
-<img width="1710" height="631" alt="image" src="https://github.com/user-attachments/assets/403e613f-a5b3-4993-b664-5d151e90ede7" />
-#### 6.5.5 Construir Imagen de Docker
-<img width="1700" height="493" alt="image" src="https://github.com/user-attachments/assets/a2294ec0-2ed4-48fd-b8b2-9dcedb539c2f" />
-#### 6.5.6 Ejecutar contenedor de Docker
-<img width="1719" height="436" alt="image" src="https://github.com/user-attachments/assets/10e21f9b-1566-4d1d-ad91-52bd95f91f77" />
-#### 6.5.7 Estado 
-<img width="858" height="419" alt="image" src="https://github.com/user-attachments/assets/3b827b0e-cd04-4f1c-af03-9dcd730bedc3" />
-#### 6.5.5 Prueba de Endpoint
-<img width="1706" height="826" alt="image" src="https://github.com/user-attachments/assets/97677bb5-fa36-48e0-8f30-8e70a0dc206f" />
+## 6. Evidencias
+
+Esta sección presenta las evidencias de compilación, construcción y ejecución de la aplicación Docker, así como las funcionalidades del script de automatización desarrollado en Bash.
+
+### 6.1. Construcción de la imagen Docker
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/34f9f0bd-5381-445b-94e3-81ecf11f7aec" alt="Proceso de construcción de la imagen Docker" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 1. Construcción de la imagen Docker de la aplicación.</em>
+</p>
+
+### 6.2. Ejecución del contenedor Docker
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ce40943b-d4d9-4cb0-a49a-8358034ebacc" alt="Ejecución del contenedor Docker" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 2. Ejecución del contenedor Docker mediante el comando correspondiente.</em>
+</p>
+
+### 6.3. Verificación de los logs del contenedor
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/449e6c35-ac45-47de-b844-bff17e65bef9" alt="Verificación de los logs del contenedor Docker" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 3. Validación de los registros de ejecución del contenedor.</em>
+</p>
+
+### 6.4. Validación de la respuesta del endpoint
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c5981fe0-b569-480f-ad8a-e20d1f20a474" alt="Respuesta del endpoint de la aplicación" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 4. Verificación de la respuesta del endpoint de la aplicación.</em>
+</p>
+
+### 6.5. Gestor de automatización mediante script Bash
+
+Esta sección documenta las funcionalidades del script de gestión, diseñado para automatizar las tareas de validación de prerrequisitos, compilación, construcción de imágenes, ejecución de contenedores y pruebas del endpoint.
+
+#### 6.5.1. Menú principal
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/67e52e9e-7059-43b4-8e22-0ac1b6368848" alt="Menú principal del gestor Bash" width="600">
+</p>
+
+<p align="center">
+  <em>Figura 5. Menú principal del script de automatización.</em>
+</p>
+
+#### 6.5.2. Verificación de prerrequisitos
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d0da1fe0-0fe3-4ced-9e40-d72823d3a706" alt="Verificación de prerrequisitos del entorno" width="600">
+</p>
+
+<p align="center">
+  <em>Figura 6. Validación de las herramientas y dependencias necesarias para la ejecución.</em>
+</p>
+
+#### 6.5.3. Compilación de la aplicación
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/461976fb-bf06-4341-9afa-a292458c6a13" alt="Proceso de compilación de la aplicación" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 7. Ejecución del proceso de compilación de la aplicación.</em>
+</p>
+
+#### 6.5.4. Construcción de la imagen Docker
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/403e613f-a5b3-4993-b664-5d151e90ede7" alt="Construcción de la imagen Docker desde el gestor Bash" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 8. Construcción de la imagen Docker desde el menú de automatización.</em>
+</p>
+
+#### 6.5.5. Verificación de la imagen Docker
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a2294ec0-2ed4-48fd-b8b2-9dcedb539c2f" alt="Verificación del resultado de la construcción de la imagen Docker" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 9. Verificación del resultado del proceso de construcción de la imagen.</em>
+</p>
+
+#### 6.5.6. Ejecución del contenedor Docker
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/10e21f9b-1566-4d1d-ad91-52bd95f91f77" alt="Ejecución del contenedor Docker desde el gestor Bash" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 10. Ejecución del contenedor mediante el script de automatización.</em>
+</p>
+
+#### 6.5.7. Consulta del estado del contenedor
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3b827b0e-cd04-4f1c-af03-9dcd730bedc3" alt="Consulta del estado del contenedor Docker" width="800">
+</p>
+
+<p align="center">
+  <em>Figura 11. Consulta del estado del contenedor desde el gestor Bash.</em>
+</p>
+
+#### 6.5.8. Prueba del endpoint
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/97677bb5-fa36-48e0-8f30-8e70a0dc206f" alt="Prueba del endpoint desde el gestor Bash" width="100%">
+</p>
+
+<p align="center">
+  <em>Figura 12. Validación de la respuesta del endpoint mediante el script de automatización.</em>
+</p>

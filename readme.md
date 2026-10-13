@@ -165,7 +165,7 @@ ENDPOINT="/api/status"
 URL_LOCAL="http://127.0.0.1:${PUERTO_HOST}${ENDPOINT}"
 ```
 
-| Variable | Contenido | Uso |
+| Variable | Contenido |
 |---|---|---|
 | `PROYECTO` | Nombre del proyecto |
 | `IMAGEN` | `nombre:etiqueta` de la imagen |

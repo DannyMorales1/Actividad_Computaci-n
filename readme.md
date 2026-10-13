@@ -650,5 +650,5 @@ Esta sección documenta las funcionalidades del script de gestión, diseñado pa
 </p>
 
 <p align="center">
-  <em>Figura 12. Validación de la respuesta del endpoint mediante el script de automatización.</em>
+  <em>Figura 12. Validación de la respuesta del endpoint.</em>
 </p>

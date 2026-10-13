@@ -119,7 +119,7 @@ CMD ["java", "-jar", "app.jar"]
 ---
 
 | Instrucción | Qué hace | 
-|---|---|---|
+|---|---|
 | `FROM eclipse-temurin:21-jre-alpine` | Imagen base con Java 21 sobre Alpine Linux.
 | `WORKDIR /opt/app` | Fija (y crea si no existe) el directorio de trabajo.
 | `COPY target/...jar app.jar` | Copia el JAR del host al contenedor, renombrado.
@@ -166,7 +166,7 @@ URL_LOCAL="http://127.0.0.1:${PUERTO_HOST}${ENDPOINT}"
 ```
 
 | Variable | Contenido |
-|---|---|---|
+|---|---|
 | `PROYECTO` | Nombre del proyecto |
 | `IMAGEN` | `nombre:etiqueta` de la imagen |
 | `CONTENEDOR` | Nombre del contenedor | 

@@ -1,5 +1,5 @@
-**Asignatura:** Computación Cliente-servidor y Administración de Sistemas
-**Estudiante:** _Danny Alexander Morales Olaya_
+# **Asignatura:** Computación Cliente-servidor y Administración de Sistemas
+## **Estudiante:** _Danny Alexander Morales Olaya_
 
 Este proyecto contiene una aplicación web mínima con **Spring Boot**, un script de **Bash** (`gestor.sh`) que automatiza su ciclo de vida y un **Dockerfile** que la empaqueta para ejecutarla en cualquier máquina con Docker.
 
@@ -19,11 +19,7 @@ Este proyecto contiene una aplicación web mínima con **Spring Boot**, un scrip
 
 | Componente | Función |
 |---|---|
-| `ServerController.java` | Expone el endpoint `GET /api/status`, que expone un json `{
-  "application": "demo-api",
-  "status": "UP",
-  "environment": "AWS EC2"
-}`. |
+| `ServerController.java` | Expone el endpoint `GET /api/status`, que expone un json `{"application": "demo-api","status": "UP","environment": "AWS EC2"}`. |
 | `gestor.sh` | Menú interactivo que verifica requisitos, compila, construye la imagen Docker, arranca el contenedor y muestra el estado. |
 | `Dockerfile` | Crea una imagen ligera con Java 21 y la aplicación con un rename. |
 
